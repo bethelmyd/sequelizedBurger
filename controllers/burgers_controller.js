@@ -11,6 +11,7 @@ router.get("/", function(req, res) {
 });
 
 router.get("/burgers", function(req, res) {
+  // console.log(db.Burger);
     db.Burger.findAll({})
     .then(function(dbBurger) {
       res.json(dbBurger);

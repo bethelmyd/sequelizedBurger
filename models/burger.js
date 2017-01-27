@@ -7,7 +7,7 @@ module.exports = function(sequelize, DataTypes)
       },
       devoured: {
         type: DataTypes.BOOLEAN,
-        defaultValue: true
+        defaultValue: false
       },
       date: {
         type: DataTypes.DATE,
@@ -22,6 +22,6 @@ module.exports = function(sequelize, DataTypes)
         // define the table's name
       tableName: 'burgers',
     });
-    
+
     return Burger;
 };
