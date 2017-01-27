@@ -1,0 +1,42 @@
+body{
+  background-image: url("../img/burger.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  opacity: .85;
+}
+
+li {
+  background: #FAEBD7;
+  margin: 5px;
+  padding: 5px;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.create-update-form {
+  background: #cca300;
+  margin: 5px;
+  padding: 5px;
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
+
+.btn-primary{
+  background-color: #996600;
+  border-color: #996600;
+}
+
+#devourForm{
+  float: right;
+  width: 20%;
+  text-align: right;
+}
+
+.burgerName{
+  font-size: 1.5em;
+}
